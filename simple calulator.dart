@@ -30,9 +30,9 @@ void main(){
 }
 
 List <String> remove_space(List <String> e){
-  for(var i=0;i<e.length;i++){
+  for(var i=e.length;i>0;i--){
     if(e[i]==' '){
-       bool o= e.remove(' ');
+      e.remove(' ');
     }
   }
   return e;

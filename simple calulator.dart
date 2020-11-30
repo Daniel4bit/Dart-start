@@ -1,5 +1,5 @@
 void main(){
-  List <String> e='2 X 3'.split('');//add,subtract,multiply,divide
+  List <String> e='2 X 3'.split('');//add,subtract,multiply,divide.
   e= remove_space(e);
   switch(e[1].toLowerCase()) { 
    case '+': { 

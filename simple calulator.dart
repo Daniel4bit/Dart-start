@@ -31,9 +31,9 @@ void main(){
 
 List <String> remove_space(List <String> e){
   for(var i=e.length;i>0;i--){
-    if(e[i]==' '){
+    
       e.remove(' ');
-    }
+    
   }
   return e;
 }

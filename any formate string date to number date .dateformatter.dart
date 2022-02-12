@@ -1,7 +1,5 @@
 void main() {
-  List list = '2020 marRCH 3rd'.toLowerCase().split('');//give space.
-//   print(decode(list));//Any formate String date to int date// Date formatter.
-  print('d/m/y');
+  List<String> list = '2020 marRCH 3rd'.toLowerCase().split('');//give space.
   print(decode_data(get_data1(list),get_data2(list),get_data3(list)));
 }
 
@@ -67,7 +65,7 @@ String get_data3(List<String> list) {
 
 //------------------------------------------------
 String decode_data(String data1,data2,data3){
-  String d,m,y;
+  String d='',m='',y='';
   
 
   if(is_int(data1[0])){
@@ -220,5 +218,3 @@ bool is_int(var cha) {
 }
 
 //------------------------------------------------
-
-
